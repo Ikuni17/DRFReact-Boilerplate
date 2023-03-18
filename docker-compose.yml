@@ -9,13 +9,13 @@ services:
       - "8000:8000"
     extra_hosts:
       - "host.docker.internal:host-gateway"
-  # frontend:
-  #   build:
-  #     context: ./
-  #     dockerfile: frontend.Dockerfile
-  #   depends_on:
-  #     - backend
-  #   ports:
-  #     - "5000:5000"
-  #   extra_hosts:
-  #     - "host.docker.internal:host-gateway"
+  frontend:
+    build:
+      context: ./
+      dockerfile: frontend.Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "5000:5000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
