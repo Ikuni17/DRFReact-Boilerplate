@@ -1,6 +1,6 @@
 # DRFReact-Boilerplate
 
-This project was built with:
+The main purpose of this is to scaffold POCs and code challenges quickly. This project was built with:
 
 - Frontend: [Create React App](https://github.com/facebook/create-react-app)
 - Backend: [Django](https://www.djangoproject.com/) + [DRF](https://www.django-rest-framework.org/)
